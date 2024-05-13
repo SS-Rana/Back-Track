@@ -84,6 +84,7 @@
   line-height: 1.6;
 }
 
+
 /* Custom CSS for Hero Button */
 .hero-btn {
   background-color: #FFD300; 
@@ -415,5 +416,24 @@
 }
 
 
-/* CSS for Footer Section */
+/* CSS for Side bar mobile*/
+
+/* Mobile Header Styles */
+#header-mobile {
+    display: flex;
+    padding: 20px 80px;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .6); 
+    background-color: #050608; 
+    justify-content: space-between;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#header-mobile .logo {
+    width: 50px;
+    height: auto;
+}
 
